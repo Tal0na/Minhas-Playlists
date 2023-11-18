@@ -8,12 +8,10 @@ import Main from './components/main'
 export default function Home() {
   return (
     <>
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-scree">
       <Header />
       <Main />
-        <Playlist />
-        {/* Adicione outros componentes conforme necessário */}
-  
+      <Playlist />
       <Footer /> 
     </div>
     </>
