@@ -15,11 +15,6 @@ const Main = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {tracks.map((track) => (
           <div key={track.id} className="bg-white p-4 rounded-md shadow-md">
-            <img
-              src={`https://source.unsplash.com/300x300/?music${track.id}`}
-              alt={`Capa de ${track.title}`}
-              className="w-full h-32 object-cover mb-4 rounded-md"
-            />
             <h3 className="text-lg font-semibold">{track.title}</h3>
             <p className="text-gray-500">{track.artist}</p>
             <div className="flex items-center mt-2">
