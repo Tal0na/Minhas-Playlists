@@ -15,4 +15,8 @@ Certifique-se de ter o Node.js e npm instalados em sua máquina.
 Execute o seguinte comando para iniciar o projeto localmente:
 
 ```bash
+<<<<<<< HEAD
 npm start
+=======
+npm start
+>>>>>>> 0c4ff637a23ffb8151efd034b97d407e63d7d543
