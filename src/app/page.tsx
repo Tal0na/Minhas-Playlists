@@ -38,7 +38,7 @@ export default function Home() {
             <div className="grid grid-cols-3 gap-4 mt-4">
               <a
                 href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
-                <image src="/" width={104} height={104} alt="..." />
+                <image src="#" width={104} height={104} alt="..." />
                 <strong>Musica</strong>
                 <button className="w-12 h-12 flex items-center pl-1 ml-auto">
                   play
